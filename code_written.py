@@ -1,8 +1,8 @@
 
 #project-id:dataset_id.table_id
-delivered_table_spec = 'bigquery-demo-285417:dataset_food_orders.delivered_orders'
+delivered_table_spec = 'credit-score-344123:dataset_food_orders.delivered_orders'
 #project-id:dataset_id.table_id
-other_table_spec = 'bigquery-demo-285417:dataset_food_orders.other_status_orders'
+other_table_spec = 'credit-score-344123:dataset_food_orders.other_status_orders'
 
 import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
